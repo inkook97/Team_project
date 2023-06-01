@@ -1,0 +1,508 @@
+#warp {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 83px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.header_in {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9999;
+}
+
+.header_in a {
+    float: left;
+    margin-top: 30px;
+    width: 190px;
+    height: 26px;
+}
+
+#nav {
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+}
+
+
+.menu {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    padding: 0 19px;
+}
+
+.menu a {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    color: #000;
+}
+
+#nav .sub1 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub2 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub3 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub4 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub li {
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.sub li a {
+    margin: 30px auto;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+#nav .sub li.act a {
+    color: #000;
+
+}
+
+.btn {
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    width: auto;
+    height: auto;
+}
+
+.btn .all {
+    width: 100px;
+    height: 34px;
+    text-align: center;
+    border-radius: 7px;
+    position: relative;
+    top: 0px;
+    color: #fff;
+    /* background: url(../images/ic_search.png) no-repeat 90% 50%; */
+    background-color: #1555A2;
+}
+
+.all2 {
+    float: right;
+    width: 104px;
+    height: 38px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    border-radius: 7px;
+    background-color: #1555A2;
+    color: #fff;
+    margin-left: 9px;
+}
+
+.all2 p {
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+}
+
+#main {
+    width: 100%;
+    height: 570px;
+    font-size: 0;
+    position: relative;
+}
+
+#main_img {
+    width: 1903;
+    height: 570px;
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+#main_img img {
+    width: 1903px;
+    position: absolute;
+}
+
+#main_img img:nth-child(1) {
+    position: absolute;
+    left: 0;
+}
+
+#main_img img:nth-child(2) {
+    position: absolute;
+    left: 1903px;
+}
+
+#main_img img:nth-child(3) {
+    position: absolute;
+    left: 3806px;
+}
+
+#main_img img:nth-child(4) {
+    position: absolute;
+    left: 5709px;
+}
+
+#main .btns {
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.btns>.left {
+    width: 70px;
+    height: 70px;
+    background: url(http://www.jevisco.com/front/kr/asset/images/main/main_arrow_left.png) no-repeat 100% 100%;
+    border: none;
+    position: absolute;
+    left: 20%;
+    cursor: pointer;
+}
+
+.btns>.right {
+    width: 70px;
+    height: 70px;
+    background: url(http://www.jevisco.com/front/kr/asset/images/main/main_arrow_right.png) no-repeat 100% 100%;
+    border: none;
+    position: absolute;
+    right: 20%;
+    cursor: pointer;
+}
+
+#main .playList {
+    width: 120px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 0;
+}
+
+#main .playList>div {
+    width: 30px;
+    height: 30px;
+    background: url(http://www.jevisco.com/front/kr/asset/images/main/paging_gallery.png) no-repeat 50% 50%;
+    float: left;
+    display: inline-block;
+}
+
+#main .playList>div.on {
+    background: url(http://www.jevisco.com/front/kr/asset/images/main/paging_gallery_on.png) no-repeat 50% 50%;
+}
+
+#title {
+    font-size: 0;
+    width: 100%;
+}
+
+#contents {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+#contents_in {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.product {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    background: url(http://www.jevisco.com/front/kr/asset/images/main/main_pr_info.jpg) no-repeat 100%;
+}
+
+
+.product h3 {
+    font-size: 32px;
+    text-align: center;
+    padding: 75px 0 20px 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+
+.product ul {
+    width: 60%;
+    height: 180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product ul li {
+    width: 170px;
+    height: 70px;
+    margin: 0px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #10479ad4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product ul li:hover {
+    background: #07399c none;
+    cursor: pointer;
+}
+
+.tab {
+    width: 100%;
+    display: flex;
+}
+
+.tab li {
+    width: 50%;
+    font-size: 30px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    background-color: #13C6FF;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tab_menu {
+    width: 100%;
+    position: relative;
+}
+
+.tab_menu .menu_left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tab_menu .menu_right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tab_menu ul {
+    width: 30%;
+}
+
+.tab_menu ul li {
+    width: 340px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab_menu ul li img{
+    width: 340px;
+    height: 270px;
+}
+
+.contents_menu {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contents_menu li {
+    width: 350px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+#footer {
+    border: 1px solid #000;
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    /* line-height: 300px; */
+    /* text-align: center; */
+}
+
+.contents_box {
+    width: 100%;
+}
+
+.contents_box ul {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contents_box li {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #ccc;
+    color: #004ba9;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contents_box li>span {
+    display: flex;
+    align-items: center;
+}
+
+.footer_in {
+    width: 1200px;
+    margin: 30px auto;
+    color: #555;
+    font-size: 12px;
+}
+
+.footer_l {
+    display: inline-block;
+    width: 366px;
+}
+
+.footer_l .footer_info {
+    width: 366px;
+    height: auto;
+    line-height: 25px;
+}
+
+.footer_in ul {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.footer_in li {
+    display: block;
+    float: left;
+}
+
+.footer_info2 {
+    width: auto;
+    height: 130px;
+    line-height: 20px;
+}
+
+.footer_logo {
+    width: auto;
+    height: auto;
+}
+
+.footer_r {
+    float: right;
+    position: relative;
+    top: 60px;
+}
+
+.footer_r li {
+    padding: 0 0px;
+}
+
+.footer_r li:nth-child(1) {
+    float: left;
+}
+
+.footer_r li:nth-child(2) {
+    padding: 0 47px;
+}
+
+
+
+.footer_r .family_site {
+    position: relative;
+    top: 30px;
+    width: 180px;
+    height: 55px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: black;
+    display: block;
+    z-index: 110;
+}
+
+.family_site>a {
+    font-size: 14px;
+    display: block;
+    height: 55px;
+    line-height: 18px;
+    color: #a1a1a1;
+    font-weight: bold;
+    background: url(../images/family_off.png) no-repeat 150px 50%;
+    box-sizing: border-box;
+    padding-left: 29px;
+    line-height: 55px;
+    border-bottom: 1px solid #424242;
+}
