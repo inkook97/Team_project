@@ -346,7 +346,7 @@ header {
 
 .tab_menu ul li {
     width: 340px;
-    height: 290px;
+    height: 450px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -354,11 +354,70 @@ header {
     font-size: 14px;
     cursor: pointer;
     position: relative;
+    margin-bottom: -100px;
 }
 
-.tab_menu ul li img{
+.tab_menu ul li img {
     width: 340px;
     height: 270px;
+}
+
+.menu_left ul li h4 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+    background-image: linear-gradient(to bottom right, #33BA8E, #33ba8db9);
+    font-size: 20px;
+    color: #fff;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+}
+
+.menu_left ul li p {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #E6E7E9;
+    padding-left: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.menu_right ul li h4 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+    background-image: linear-gradient(to bottom right, #13C6FF, #13c8ffc2);
+    font-size: 20px;
+    color: #fff;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+}
+
+.menu_right ul li p {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #E6E7E9;
+    padding-left: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
 }
 
 .contents_menu {
