@@ -219,10 +219,10 @@ header {
 
 .contents_menu {
     width: 1200px;
-    height: 750px;
+    height: 850px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -231,11 +231,44 @@ header {
 .contents_menu li {
     width: 350px;
     height: 370px;
-    margin-bottom: 35px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: center;
     cursor: pointer;
+    position: relative;
 }
+.contents_menu li img{
+    width: 350px;
+    height: 370px;
+}
+
+.contents_menu .menu_img{
+    margin-top: 5px;
+}
+
+.contents_menu .menu_img h3{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    bottom: 35px;
+}
+
+.contents_menu li h4{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+}
+.contents_menu li p{
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    color: #fff;
+    font-weight: 500;
+}
+
 
 
 
