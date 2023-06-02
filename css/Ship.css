@@ -157,8 +157,11 @@ header {
 }
 
 #title {
-    font-size: 0;
-    width: 100%;
+    padding: 50px 0;
+    box-sizing: border-box;
+    font-size: 40px;
+    text-align: center;
+    background-color: #f0f0f0;
 }
 
 #contents {
@@ -175,14 +178,14 @@ header {
     width: 1200px;
     height: 400px;
     margin: 0 auto;
-    background: url(http://www.jevisco.com/front/kr/asset/images/main/main_pr_info.jpg) no-repeat 100%;
+    background: url(../images/Rectangle\ 72.png) no-repeat 100%;
 }
 
 
 .product h3 {
     font-size: 32px;
     text-align: center;
-    padding: 75px 0 0px 0;
+    padding: 108px 0 40px 0;
     box-sizing: border-box;
     color: #fff;
 }
@@ -194,25 +197,25 @@ header {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
 .product ul li {
     width: 170px;
     height: 70px;
-    margin: 0px 10px 35px 0;
+    margin: 0px 10px;
     border: 1px solid #fff;
     color: #fff;
     border-radius: 5px;
-    background-color: #10479ad4;
+    background-color: #677180dc;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .product ul li:hover {
-    background: #07399c none;
+    background: #264A80 none;
     cursor: pointer;
 }
 
@@ -221,6 +224,7 @@ header {
     width: 1200px;
     height: 850px;
     margin: 0 auto;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -230,30 +234,32 @@ header {
 
 .contents_menu li {
     width: 350px;
-    height: 370px;
+    height: 360px;
     margin-bottom: 70px;
     display: flex;
     justify-content: center;
     cursor: pointer;
     position: relative;
-}
-.contents_menu li img{
-    width: 350px;
-    height: 370px;
+    box-shadow: 3px 6px 8px #555;
 }
 
-.contents_menu .menu_img{
+.contents_menu li img {
+    width: 350px;
+    height: 360px;
+}
+
+.contents_menu .menu_img {
     margin-top: 5px;
 }
 
-.contents_menu .menu_img h3{
+.contents_menu .menu_img h3 {
     color: #fff;
     font-size: 25px;
     position: absolute;
     bottom: 35px;
 }
 
-.contents_menu li h4{
+.contents_menu li h4 {
     position: absolute;
     left: 30px;
     top: 20px;
@@ -261,7 +267,8 @@ header {
     color: #fff;
     font-weight: 500;
 }
-.contents_menu li p{
+
+.contents_menu li p {
     position: absolute;
     left: 30px;
     top: 60px;
@@ -274,7 +281,6 @@ header {
 
 #footer {
     border: 1px solid #000;
-    margin-top: 30px;
     width: 100%;
     box-sizing: border-box;
     /* line-height: 300px; */
@@ -283,14 +289,17 @@ header {
 
 .contents_box {
     width: 100%;
+    height: 600px;
+    background: url(../images/icon_background.png);
+    margin-top: 90px;
 }
 
 .contents_box ul {
     width: 1200px;
-    height: 300px;
+    height: 600px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -300,8 +309,10 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid #ccc;
-    color: #004ba9;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 5px 8px #555454;
+    color: #000;
     cursor: pointer;
     font-size: 18px;
 }
