@@ -52,7 +52,7 @@ $(document).ready(function () {
     function timer() {
         setIntervalid = setInterval(function () {
             var n = current + 1;
-            if (n > 3) {
+            if (n > 2) {
                 n = 0;
             }
             movie(n);
